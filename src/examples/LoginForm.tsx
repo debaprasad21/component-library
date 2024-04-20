@@ -57,7 +57,7 @@ export const LoginForm = () => {
 
         <Button
           type="submit"
-          variant={"solid"}
+          variant={"primary"}
           className="mt-10"
           onClick={handleSubmit}
         >

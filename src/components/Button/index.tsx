@@ -13,7 +13,7 @@ const buttonStyles = cva(
   {
     variants: {
       variant: {
-        solid: "",
+        primary: "",
         secondary: "border-2",
         tertiary: "transition-colors duration-300",
       },
@@ -28,9 +28,9 @@ const buttonStyles = cva(
     },
     compoundVariants: [
       {
-        variant: "solid",
+        variant: "primary",
         colorScheme: "primary",
-        className: "bg-primary-500 hover:bg-primary-400",
+        className: "bg-primary-100 hover:bg-primary-400",
       },
       {
         variant: "secondary",
@@ -45,7 +45,7 @@ const buttonStyles = cva(
       },
     ],
     defaultVariants: {
-      variant: "solid",
+      variant: "primary",
       size: "md",
       colorScheme: "primary",
     },

@@ -18,6 +18,7 @@ const textStyles = cva("w-full", {
       xl: "text-xl",
       "2xl": "text-2xl",
       "3xl": "text-3xl",
+      "7xl": "text-7xl",
     },
     weight: {
       thin: "font-thin",

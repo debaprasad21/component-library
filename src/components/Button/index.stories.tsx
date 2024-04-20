@@ -14,26 +14,29 @@ export default meta;
 
 type Story = StoryObj<typeof meta>;
 
-export const Solid: Story = {
+export const Primary: Story = {
   args: {
-    children: "Solid",
-    variant: "solid",
+    children: "Primary Button",
+    variant: "primary",
     size: "md",
+    onClick: () => alert("Primary Button Clicked"),
   },
 };
 
 export const Secondary: Story = {
   args: {
-    children: "Secondary",
+    children: "Secondary Button",
     variant: "secondary",
-    size: "lg",
+    size: "md",
+    onClick: () => alert("Secondary Button Clicked"),
   },
 };
 
 export const Tertiary: Story = {
   args: {
-    children: "Tertiary",
+    children: "Tertiary Button",
     variant: "tertiary",
-    size: "sm",
+    size: "md",
+    onClick: () => alert("Tertiary Button Clicked"),
   },
 };
