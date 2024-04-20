@@ -36,12 +36,13 @@ const buttonStyles = cva(
         variant: "secondary",
         colorScheme: "primary",
         className:
-          "text-primary-600 border-primary-500 bg-transparent hover:bg-primary-100",
+          "text-primary-100 border-primary-100 bg-transparent hover:bg-primary-100 hover:text-gray-white",
       },
       {
         variant: "tertiary",
         colorScheme: "primary",
-        className: "text-primary-600 bg-transparent hover:bg-primary-100",
+        className:
+          "text-primary-100 bg-transparent hover:bg-primary-100 hover:text-gray-white",
       },
     ],
     defaultVariants: {
