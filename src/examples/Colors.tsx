@@ -21,6 +21,15 @@ export const Colors = () => {
       <Box className="bg-secondary-200 text-gray-black p-4 m-2 ">
         Secondary 200 - *-secondary-100
       </Box>
+      <Text as="p" className="text-gray-black">
+        Gray
+      </Text>
+      <Box className="bg-gray-black text-gray-white p-4 m-2 ">
+        Gray Black - *-gray-black
+      </Box>
+      <Box className="bg-gray-white text-gray-black p-4 m-2 ">
+        Gray White - *-gray-white
+      </Box>
       <Text as="span" className="text-gray-black" size="lg" weight="semibold">
         Note:- *
       </Text>
